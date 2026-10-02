@@ -41,3 +41,9 @@ variable "common_tags" {
     Owner       = "TatianaMotta"
   }
 }
+
+variable "resource_prefix" {
+  description = "Prefixo utilizado nos nomes dos recursos AWS"
+  type        = string
+  default     = "tatiana"
+}
